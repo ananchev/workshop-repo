@@ -1,3 +1,3 @@
 FROM public.ecr.aws/nginx/nginx:latest 
-MAINTAINER DevOpsWorkshop
+LABEL maintainer="DevOpsWorkshop"
 COPY index.html AWS_logo.png /usr/share/nginx/html/
